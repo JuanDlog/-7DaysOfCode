@@ -15,7 +15,7 @@ let stringDiez = '10';
 console.log('Hola Mundo')
 
 
-if (numeroUn == stringUn && typeof(numeroUn) != typeof(stringUn)) {
+if (numeroUn == stringUn) { 
 
   console.log('Las variables numeroUn y stringUn tienen el mismo valor, pero tipos diferentes');
 
@@ -27,7 +27,7 @@ if (numeroUn == stringUn && typeof(numeroUn) != typeof(stringUn)) {
 
  
 
-if (numeroTreinta == stringTreinta && typeof(numeroTreinta) == typeof(stringTreinta)) {
+if (numeroTreinta === stringTreinta) {
 
   console.log('Las variables numeroTreinta y stringTreinta tienen el mismo valor y el mismo tipo');
 
@@ -39,7 +39,7 @@ if (numeroTreinta == stringTreinta && typeof(numeroTreinta) == typeof(stringTrei
 
  
 
-if (numeroDiez == stringDiez && typeof(numeroDiez) != typeof(stringDiez)) {
+if (numeroDiez == stringDiez) {
 
   console.log('Las variables numeroDiez y stringDiez tienen el mismo valor, pero tipos diferentes');
 
